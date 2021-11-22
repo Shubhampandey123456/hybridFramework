@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.mindtree.TestPack.GiftCardTest">
+        <methods>
+          <include name="close"/>
+          <include name="beforeExecution"/>
+          <include name="GiftCardWindow"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.GiftCardTest -->
+      <class name="com.mindtree.TestPack.logTask">
+        <methods>
+          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="beforeExecution"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.logTask -->
+      <class name="com.mindtree.TestPack.LatestProductTest">
+        <methods>
+          <include name="beforeExecution"/>
+          <include name="LatestProductCheck"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.LatestProductTest -->
+      <class name="com.mindtree.TestPack.CartTest">
+        <methods>
+          <include name="close"/>
+          <include name="AddToCart"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.CartTest -->
+      <class name="com.mindtree.TestPack.BlogTest">
+        <methods>
+          <include name="BlogCheck"/>
+          <include name="close"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.BlogTest -->
+      <class name="com.mindtree.TestPack.CodTest">
+        <methods>
+          <include name="close"/>
+          <include name="BlogCheck"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.CodTest -->
+      <class name="com.mindtree.TestPack.HeaderLink">
+        <methods>
+          <include name="AccessHeaderLinks"/>
+          <include name="beforeExecution"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.HeaderLink -->
+      <class name="com.mindtree.TestPack.OfficialMerchantTest">
+        <methods>
+          <include name="close"/>
+          <include name="beforeExecution"/>
+          <include name="CheckOfficialMerchant"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.OfficialMerchantTest -->
+      <class name="com.mindtree.TestPack.MerchandizeTest">
+        <methods>
+          <include name="close"/>
+          <include name="MerchandizeCheck"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.MerchandizeTest -->
+      <class name="com.mindtree.TestPack.ContactTest">
+        <methods>
+          <include name="close"/>
+          <include name="BlogCheck"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- com.mindtree.TestPack.ContactTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
